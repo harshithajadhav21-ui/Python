@@ -44,3 +44,6 @@ def amstron(num):
     else:
         print("num is not amstrong")
 amstron(num)
+
+# return function programs
+# difference b/w return and print
