@@ -115,3 +115,7 @@ for ch in s:
     if(ch=='a' or ch=='e' or ch=='i' or ch=='o' or ch=='u'):
         count+=1
 print(count)
+
+string22="Pyhton"
+string23=string22.find("f")
+print(string23)
