@@ -1,26 +1,26 @@
 # # Mapping function
 # # map()function executes a specified function for each item in iteration
-# def sq(x):
-#     return x*x
-# t=(1,2,3,4,5)
-# ut=map(sq,t)
-# print(list(ut))
+def sq(x):
+    return x*x
+t=(1,2,3,4,5)
+ut=map(sq,t)
+print(list(ut))
 
 # pass statement is used for future purpose where we can keep it empty without any error for future use
 
-# def demo():
-#     pass
-# demo()
+def demo():
+    pass
+demo()
 
 # # STRING
-# str1='hello'
-# print(str1)
+str1='hello'
+print(str1)
 
-# str2="hello world"
-# print(str2)
+str2="hello world"
+print(str2)
 
-# str3='''string is the collection of the words , characters etc'''
-# print(str3)
+str3='''string is the collection of the words , characters etc'''
+print(str3)
 
 
 # INDEXING AND SLICING IN STRING 
