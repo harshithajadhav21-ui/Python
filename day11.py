@@ -8,13 +8,13 @@
 
 # function
 
-# def display():
-#     print("hello world")
-# display()
+def display():
+    print("hello world")
+display()
 
-# def add(a,b):
-#     print(a+b)
-# add(10,20)
+def add(a,b):
+    print(a+b)
+add(10,20)
 
 # reverse
 num =int(input("enter the num:"))
