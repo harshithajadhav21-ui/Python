@@ -44,8 +44,26 @@
 #     print(x)
 
 # f=open("demo.txt","x")
-f1=open("demo1.txt",'w')
-f1.write("good morning")
-f1.read("demo1.txt","r")
-print(f1.readline())
-f1.close()
+# f1=open("demo1.txt",'w')
+# f1.write("good morning")
+# f1=open("demo1.txt",'w')
+# f1.write("i'm harshitha ,im from sangli")
+# # print(f1.readline())
+# f1.close()
+
+# DELETE
+# import os
+# os.remove("demo.txt")
+
+# to check the fike exist or not
+# import os
+# if os.path.exists("demo.txt"):
+#     os.remove("demo.txt")
+# else:
+#     print("file does not exist")
+
+# BY USDING WITH STATEMENT THE PVC CLOSES THE FILE Automatically so wee no need to use the close method
+with open("demo1.txt",'r') as f:
+    content=f.read()
+    print(content)
+
