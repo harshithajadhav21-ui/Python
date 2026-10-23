@@ -17,3 +17,9 @@
 # a=int(input("enter a:"))
 # b=int(input("enter b :"))
 # print("addition : ",calculation.subtraction(a,b))
+
+# import palindrome
+# palindrome.palindrome()
+
+import amstrong
+amstrong.amstrong()
